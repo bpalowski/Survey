@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Project</title>
+</head>
+<body>
+  <div class="container">
+    <div id="reveal-on">
+      <div class="jumbotron">
+        <h1>Career Path</h1>
+        <p>What is language are you intrested ?</p>
+      </div>
+      <form >
+        <div class="row">
+          <div class="col-md-6">
+            <lable for="first_name"><strong>First Name</strong></lable>
+            <input id="first_name" type="text" class="form-control" placeholder="input">
+          </div>
+          <div class="col-md-6">
+            <lable for="last_name"><strong>Last Name</strong></lable>
+            <input id="last_name"type="text" class="form-control" placeholder="input">
+          </div>
+        </div>
+      </form>
+      <form id="info">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="question_1">Are you intrested in learing about object-oriented programming </label>
+            <select id="question_1" class="custom-select" type="text">
+              <option selected>Open this select menu</option>
+              <option value="2">Yes</option>
+              <option value="0">No</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="question_2">Do you want to work with Androids app developers</label>
+            <select id="question_2" class="custom-select" type="text">
+              <option selected>Open this select menu</option>
+              <option value="2">Yes</option>
+              <option value="0">No</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="question_3">Do you want to learn a language for back-end</label>
+            <select id="question_3" class="custom-select" type="text">
+              <option selected>Do you want to learn</option>
+              <option value="2">Yes</option>
+              <option value="0">No</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="question_4">Do you want to build apps using IOS </label>
+            <select id="question_4" class="custom-select" type="text">
+              <option selected>Open this select menu</option>
+              <option value="2">Yes</option>
+              <option value="0">No</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="question_5">Are you intrested in learing a code language</label>
+            <select id="question_5" class="custom-select" type="text">
+              <option selected>Open this select menu</option>
+              <option value="2">Yes</option>
+              <option value="0">No</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <div id="reveal-off">
+        <style>
+        body{
+          background-image: url("img/nature.jpg");
+        }
+        </style>
+        <div class="jumbotron">
+          <h2>Hello <span class="first_name"></span><span class="last_name"></span></h2>
+          <p>Here is what we suggest</p>
+        </div>
+      </div>
+      <div id="suggestion_1">
+        <h2><a href="https://csharp-station.com">C#</a></h2>
+        <div class="col-ld-4">
+          <blockquote class="bg-light">
+            <p>
+              <strong>C#</strong> is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.
+            </p>
+          </blockquote>
+        </div>
+        <ul >
+        </ul>
+      </div>
+      <div id="suggestion_2">
+        <h2><a href="https://www.javascript.com/JavaScript">JavaScript</a></h2>
+        <div class="col-ld-4">
+          <blockquote class="bg-light">
+            <p>
+              avaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.x. having complex animations, clickable buttons, popup menus, etc.).  There are also more advanced server side versions of javascript such as Node.Js which allow you to add more functionality to a website than simply downloading files (such as realtime collaboration between multiple computers). Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+            </p>
+          </blockquote>
+        </div>
+        <ul>
+        </ul>
+      </div>
+      <div id="suggestion_3">
+        <h2><a href="https://www.ruby-lang.org/en/ruby">Ruby</a></h2>
+        <div class="col-ld-4">
+          <blockquote class="bg-light">
+            <p>
+              <strong>Ruby</strong> is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.
+
+              Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end processing.
+            </p>
+          </blockquote>
+        </div>
+        <ul>
+        </ul>
+      </div>
+      <div id="suggestion_4">
+        <h2><a href="http://php.net/manual/en/intro-whatis.phpphp">Php</a></h2>
+        <div class="col-ld-4">
+          <blockquote class="bg-light">
+            <p>
+              <strong>PHP</strong> The start of the development of this programming tool can be attributed to 1994 when Rasmus Lerdorf created a number of components and extensions that extended capabilities of the most popular than C language. Initially, the components were created in order to facilitate the management of the Rasmus’s own website. However, other developers quickly appreciated the new features of those components and began to actively implement them. As a result of the constant use and extension of PHP, the emergence and growth of the community, the new language has become not just popular: over 80% of the modern websites are based on it. PHP is constantly evolved and complemented by the developer team and members of a large user community together. We can safely say that PHP is on the peak now and it is still very early to talk about the decline in its popularity.
+            </p>
+          </blockquote>
+        </div>
+        <ul >
+        </ul>
+      </div>
+      <div id="suggestion_5">
+        <h2><a href="https://en.wikipedia.org/wiki/HTMLhtlm_css">HTML_CSS</a></h2>
+        <div class="col-ld-4">
+          <blockquote class="bg-light">
+            <p>
+              <strong>HTLM/CSS</strong> HTML is at the core of every web page, regardless the complexity of a site or number of technologies involved. It's an essential skill for any web professional. It's the starting point for anyone learning how to create content for the web. And, luckily for us, it's surprisingly easy to learn.Whereas HTML was the basic structure of your website, CSS is what gives your entire website its style. Those slick colors, interesting fonts, and background images? All thanks to CSS. It affects the entire mood and tone of a web page, making it an incredibly powerful tool -- and an important skill for web developers to learn. It's also what allows websites to adapt to different screen sizes and device types.
+            </p>
+          </blockquote>
+        </div>
+        <ul >
+        </ul>
+      </div>
+      <div id="suggestion_6">
+        <h2>Response Invalid</h2>
+        <ul >
+          <img src="img/nothing.png">
+        </ul>
+      </div>
+    </div>
+  </body>
+  </html>

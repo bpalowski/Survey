@@ -1,0 +1,13 @@
+#suggestion_1,#suggestion_2,#suggestion_3,#suggestion_4,#suggestion_5,#suggestion_6,#suggestion_7,#reveal-off{
+  display: none;
+}
+.btn {
+  display: block;
+}
+.jumbotron{
+  text-align: center;
+}
+.click{
+  cursor:pointer;
+  text-decoration: underline;
+}
